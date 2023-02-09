@@ -1,0 +1,118 @@
+.skin-green .wrapper, .skin-green .main-sidebar, .skin-green .left-side {
+    background-color: #00a850;
+}
+
+.skin-green .sidebar-menu > li:hover > a, .skin-green .sidebar-menu > li.active > a {
+    color: #ffffff;
+    background: #00a850;
+    border-left-color: #00a65a;
+}
+
+.skin-green .sidebar-menu > li.header {
+    color: #ffffff;
+    background: #00a850;
+}
+
+.skin-green .sidebar-form input[type="text"], .skin-green .sidebar-form .btn {
+    box-shadow: none;
+    background-color: #005428;
+    border: 1px solid transparent;
+    height: 35px;
+}
+
+.skin-green .sidebar a {
+    color: #090a0b;
+}
+
+.skin-green .sidebar a  :hover{
+    color: #090a0b;
+}
+
+.skin-green .treeview-menu > li > a {
+    color: #0a0b0c;
+}
+
+.skin-green .main-header .logo {
+    background-color: #00a850;
+    color: #fff;
+    border-bottom: 0 solid transparent;
+}
+
+.skin-green .treeview-menu > li > a  :hover{
+    color: #0a0b0c;
+}
+
+.skin-green .treeview-menu > li {
+   background-color: #00a850;
+}
+
+.skin-green .treeview-menu > li :hover{
+   color: #0a0b0c;
+}
+
+.skin-green .main-header .navbar {
+    background-color: #ffffff;
+}
+
+.skin-green .main-header .logo :hover {
+    background-color: #00a850;
+    color: #fff;
+    border-bottom: 0 solid transparent;
+}
+
+.small-box > .small-box-footer {
+    position: relative;
+    text-align: center;
+    padding: 3px 0;
+    color: #fff;
+    color: rgb(12, 8, 8);
+    display: block;
+    z-index: 10;
+    background: rgba(0,0,0,0.1);
+    text-decoration: none;
+}
+
+
+.content-wrapper, .right-side {
+    min-height: 100%;
+    background-color: #ffffff;
+    z-index: 800;
+}
+
+.small-box:hover {
+    text-decoration: none;
+    color: #1e1717;
+}
+
+.skin-green .main-header .navbar .nav > li > a {
+    color: #141111;
+}
+
+.skin-green .main-header .logo:hover {
+    background-color: #00a850;
+}
+
+.text-success {
+    color: #e1e614;
+}
+
+/* for tables*/
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #181212;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: 1px solid #0e0909;
+}
+
+.sidebar-menu .treeview-menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /*
+    padding-left: 15px; */
+}

@@ -1,0 +1,51 @@
+Select
+  Count(employee.id) As Count_id,
+  users.full_name,
+  users.email,
+  users.phone,
+  users.fa_id,
+  district.dis_name
+From
+  users Inner Join
+  district
+    On users.fa_dis = district.dis_code Inner Join
+  employee
+    On employee.farm_id = users.fa_id
+Where
+  users.fa_id = 'FA17042496J'
+Group By
+  users.fa_id
+  
+  
+  /////////////////////////////
+  
+  
+  
+  
+Select
+  users.fa_id,
+  Count(animal.id) As Count_id
+From
+  users Inner Join
+  animal
+    On animal.famer_id = users.fa_id
+Where
+  users.fa_id = 'FA17042496J'
+Group By
+  users.fa_id
+  
+  
+  ///////////////////////////
+  
+  
+  Select
+  users.fa_id,
+  Sum(milk.litres) As Sum_litres
+From
+  users Inner Join
+  milk
+    On milk.famer_id = users.fa_id
+Where
+  users.fa_id = 'FA17042496J'
+Group By
+  users.fa_id
